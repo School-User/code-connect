@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Connect - Contact Us</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+    <style>body { font-family: "Roboto", sans-serif; }</style>
+  </head>
+  <body class="bg-gray-100 text-gray-900">
+    <nav class="bg-gradient-to-r from-teal-300 to-blue-300 p-4">
+      <div class="container mx-auto flex flex-wrap justify-between items-center gap-2">
+        <a class="flex items-center text-white text-2xl font-bold" href="index.html">
+          <img alt="Code Connect Logo" class="h-10 w-10 mr-2 rounded-full" src="https://cdn.glitch.global/48950cf9-292a-4a99-afd4-2906a03f3c4e/WhatsApp%20Image%202024-08-25%20at%2023.05.47_3b935611.jpg?v=1730770878860" />
+          Code Connect
+        </a>
+        <div class="flex flex-wrap gap-x-4 gap-y-1 text-sm md:text-base">
+          <a class="text-white hover:underline" href="index.html">Home</a>
+          <a class="text-white hover:underline" href="events.html">Events</a>
+          <a class="text-white hover:underline" href="chapters.html">Chapters</a>
+          <a class="text-white hover:underline" href="resources.html">Resources</a>
+          <a class="text-white hover:underline" href="sponsorship.html">Sponsorship</a>
+          <a class="text-white hover:underline" href="community.html">Community</a>
+          <a class="text-white hover:underline" href="about.html">About Us</a>
+          <a class="text-white font-bold underline underline-offset-4" href="contact.html" aria-current="page">Contact Us</a>
+          <a class="text-white hover:underline" href="blog.html">Blog</a>
+        </div>
+      </div>
+    </nav>
+
+    <section class="bg-gradient-to-r from-blue-300 to-teal-300 text-white py-20">
+      <div class="container mx-auto px-6 text-center">
+        <h1 class="text-4xl font-bold mb-4">Contact Us</h1>
+        <p class="text-xl mb-8">Have a question or want to get involved? Send us a message and we'll get back to you.</p>
+      </div>
+    </section>
+
+    <section class="py-20">
+      <div class="container mx-auto px-6">
+        <div class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
+          <form action="#" method="post" class="space-y-6">
+            <div>
+              <label for="name" class="block font-bold mb-2">Name</label>
+              <input id="name" name="name" type="text" required placeholder="Your name" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400" />
+            </div>
+            <div>
+              <label for="email" class="block font-bold mb-2">Email</label>
+              <input id="email" name="email" type="email" required placeholder="you@example.com" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400" />
+            </div>
+            <div>
+              <label for="message" class="block font-bold mb-2">Message</label>
+              <textarea id="message" name="message" rows="5" required placeholder="How can we help?" class="w-full border border-gray-300 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-teal-400"></textarea>
+            </div>
+            <button type="submit" class="bg-teal-500 text-white px-6 py-3 rounded-full font-bold hover:bg-teal-400 transition duration-300">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-gradient-to-r from-teal-300 to-blue-300 text-white py-6">
+      <div class="container mx-auto px-6 text-center">
+        <p>© 2023 Code Connect. All rights reserved.</p>
+        <div class="mt-4 space-x-4">
+          <a class="text-white" href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a class="text-white" href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a class="text-white" href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a class="text-white" href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
